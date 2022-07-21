@@ -2,7 +2,8 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
-import MainPage from "./mainPage";
+import MainPage from "./MainPage";
+import Services from "./Services";
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       </Head>
       <Navbar />
       <MainPage />
+      <Services />
     </div>
   );
 };
