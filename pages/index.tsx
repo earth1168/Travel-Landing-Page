@@ -4,6 +4,8 @@ import Image from "next/image";
 import Navbar from "../components/Navbar";
 import MainPage from "./MainPage";
 import Services from "./Services";
+import Destination from "./Destination";
+import Notify from "../components/Notify";
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +17,8 @@ const Home: NextPage = () => {
       <Navbar />
       <MainPage />
       <Services />
+      <Destination />
+      <Notify />
     </div>
   );
 };
