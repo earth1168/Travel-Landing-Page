@@ -6,6 +6,7 @@ import MainPage from "./MainPage";
 import Services from "./Services";
 import Destination from "./Destination";
 import Notify from "../components/Notify";
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
       <Services />
       <Destination />
       <Notify />
+      <Footer />
     </div>
   );
 };
