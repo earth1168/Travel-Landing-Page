@@ -2,7 +2,7 @@ import React from "react";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import Image from "next/image";
 import HeroImage from "../public/images/hero.png";
-//import Trending from '../components/Trending'
+import Trending from "../components/Trending";
 
 function MainPage() {
   return (
@@ -38,7 +38,7 @@ function MainPage() {
             />
           </div>
         </div>
-        {/* <Trending /> */}
+        <Trending />
       </div>
     </>
   );
